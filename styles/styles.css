@@ -116,8 +116,8 @@ header {
   transform: translate(-50%);
 }
 .main_text h1 {
-  font-size: 80px;
-  font-family: "signpainer";
+  font-size: 100px;
+  font-family: "signpainter";
   margin-top: 30px;
   color: #ffd900;
 }
@@ -203,12 +203,15 @@ header {
   width: 700px;
 }
 .history_text h2 {
-  font-size: 80px;
+  font-size: 120px;
   color: #966565;
+  font-family: "signpainter";
+  margin-bottom: 25px;
 }
 .history_text p {
   font-size: 40px;
   color: #0e0e0e;
+  font-family: "khmer";
 }
 .history_image {
   width: 730px;
@@ -221,8 +224,7 @@ header {
   width: calc(100%-180px);
   display: flex;
   flex-wrap: wrap;
-  column-gap: 50px;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 150px;
   text-align: center;
 }
