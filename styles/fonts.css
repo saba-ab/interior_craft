@@ -1,0 +1,8 @@
+@font-face {
+  font-family: "signpainter";
+  src: url(./fonts/SignPainter-HouseScript.ttf) format("truetype");
+}
+@font-face {
+  font-family: "khmer";
+  src: url(./fonts/Khmer_MN.ttc) format("truetype");
+}

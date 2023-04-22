@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header img {
+  width: 30px;
+}
+header {
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1920px;
+  margin: 0 auto;
+  padding: 40px 0 30px 0;
+  background-color: #ffffff;
+}
+.header a {
+  text-decoration: none;
+  color: #000000;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  font-family: "signpainter";
+  font-size: 40px;
+}
+.logo p {
+  margin-left: 15px;
+}
+.nav ul {
+  display: flex;
+  list-style: none;
+  margin-right: 75px;
+  font-family: "khmer";
+  margin-top: 15px;
+}
+.nav li {
+  margin-right: 10px;
+  font-size: 26px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+}
+.nav li:last-child {
+  width: 40px;
+}
+.nav li:nth-child(6) {
+  width: 40px;
+}
+.nav button {
+  border: none;
+  background-color: #ffffff;
+}
+.nav button:hover {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.slider_wrapper {
+  width: 100%;
+  position: relative;
+}
+.slider {
+  width: 100%;
+  display: flex;
+  height: 860px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 1.5rem 3rem -0.75 hsla(0, 0, 0, 0.25);
+}
+
+.slider img {
+  flex: 1 0 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  scroll-snap-align: start;
+}
+.slider_nav {
+  display: flex;
+  column-gap: 10px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 20;
+}
+.slider_nav a {
+  background-color: #ffffff;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  opacity: 0.75;
+  transition: ease 250ms;
+}
+.slider_nav:hover {
+  opacity: 1;
+}
+.main_text {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  justify-content: center;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.main_text h1 {
+  font-size: 80px;
+  font-family: "signpainer";
+  margin-top: 30px;
+  color: #ffd900;
+}
+.main_text p {
+  font-size: 40px;
+  font-family: "khmer";
+  margin-top: 30px;
+  color: #ffd900;
+}
+.main_text button {
+  font-size: 40px;
+  font-family: "khmer";
+  margin-top: 30px;
+  width: 300px;
+  padding: 20px 0 20px 0;
+  border: none;
+  opacity: 0.8;
+  align-items: center;
+  transition: background-color 100ms ease;
+  transition: transform 0.5s ease;
+}
+.main_text button:hover {
+  background-color: #96f3ce;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.left_arrow {
+  width: 140px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(-50%);
+  background-color: #96f3ce;
+  opacity: 0.5;
+}
+.right_arrow {
+  width: 140px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(-50%);
+  right: 0%;
+  opacity: 0.5;
+}
+.left_arrow button {
+  border: none;
+  width: 140px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #96f3ce;
+}
+
+.right_arrow button {
+  border: none;
+  width: 140px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #96f3ce;
+}
+.left_arrow img {
+  width: 70px;
+}
+.right_arrow img {
+  width: 70px;
+}
+
+.design_history {
+  width: calc(100%-400px);
+  display: flex;
+  justify-content: center;
+  column-gap: 180px;
+  margin-top: 140px;
+}
+.history_text {
+  width: 700px;
+}
+.history_text h2 {
+  font-size: 80px;
+  color: #966565;
+}
+.history_text p {
+  font-size: 40px;
+  color: #0e0e0e;
+}
+.history_image {
+  width: 730px;
+}
+.history_image img {
+  width: 100%;
+  border-radius: 50px;
+}
+.boxes {
+  width: calc(100%-180px);
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  justify-content: center;
+  margin-top: 150px;
+  text-align: center;
+}
+.boxes h3 {
+  color: #966565;
+  font-size: 80px;
+  font-family: "signpainter";
+}
+.boxes p {
+  color: #0e0e0e;
+  font-size: 35px;
+  font-family: "khmer";
+}
+.boxes img {
+  width: 330px;
+  height: 330px;
+  object-fit: cover;
+  border-radius: 80px;
+}
+.box {
+  row-gap: 20px;
+  width: 330px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
